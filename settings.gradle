@@ -1,2 +1,2 @@
 include ':app', ':vanillaplacepicker'
-project(':vanillaplacepicker').name='VanillaPlacePicker'
+project(':vanillaplacepicker').name='androidlib.vanillaplacepicker'

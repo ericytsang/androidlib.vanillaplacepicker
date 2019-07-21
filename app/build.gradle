@@ -30,7 +30,7 @@ dependencies {
     implementation "androidx.cardview:cardview:$cardview_version"
 
     testImplementation 'junit:junit:4.12'
-    implementation project(path: ':VanillaPlacePicker')
+    implementation project(path: ':androidlib.vanillaplacepicker')
 }
 
 apply plugin: 'com.google.gms.google-services'
