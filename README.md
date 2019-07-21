@@ -1,3 +1,5 @@
+    implementation "com.github.ericytsang:androidlib.vanillaplacepicker:0.0.9-SNAPSHOT"
+
 # Vanilla Place Picker
 [![](https://jitpack.io/v/Mindinventory/VanillaPlacePicker.svg)](https://jitpack.io/#Mindinventory/VanillaPlacePicker)
 
