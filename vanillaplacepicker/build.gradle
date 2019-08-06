@@ -44,6 +44,10 @@ dependencies {
     implementation 'com.google.android.gms:play-services-location:16.0.0'
     implementation 'com.google.android.gms:play-services-maps:16.1.0'
 
+    // Places API for Android
+    implementation 'com.google.android.libraries.places:places:2.0.0'
+
+    // todo: maybe we can remove the dependencies below after using the places api for android above
     // this library are used for Retrofit API calling feature
     implementation 'com.squareup.retrofit2:retrofit:2.5.0'
     implementation 'com.squareup.retrofit2:adapter-rxjava2:2.5.0'
