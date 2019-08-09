@@ -4,7 +4,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'com.github.dcendents.android-maven'
 
 group='com.github.ericytsang'
-version='0.0.9-SNAPSHOT'
+version='0.0.10'
 
 android {
     compileSdkVersion 28
@@ -33,30 +33,23 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.31'
-    implementation 'androidx.appcompat:appcompat:1.1.0-alpha05'
-    implementation 'androidx.core:core-ktx:1.2.0-alpha01'
+    implementation 'androidx.appcompat:appcompat:1.1.0-rc01'
+    implementation 'androidx.core:core-ktx:1.2.0-alpha02'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
-    implementation "androidx.recyclerview:recyclerview:1.0.0"
     testImplementation 'junit:junit:4.12'
 
     // Location
-    implementation 'com.google.android.gms:play-services-location:16.0.0'
-    implementation 'com.google.android.gms:play-services-maps:16.1.0'
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
 
     // Places API for Android
     implementation 'com.google.android.libraries.places:places:2.0.0'
 
     // todo: maybe we can remove the dependencies below after using the places api for android above
     // this library are used for Retrofit API calling feature
-    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
-    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.5.0'
-    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
-    implementation 'com.squareup.okhttp3:logging-interceptor:3.11.0'
     implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
-    implementation 'io.reactivex.rxjava2:rxjava:2.2.4'
-    implementation 'com.jakewharton.rxbinding2:rxbinding:2.1.1'
-    implementation 'com.jakewharton.rxrelay2:rxrelay:2.1.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.10'
 
     // Google material
     implementation 'com.google.android.material:material:1.0.0'

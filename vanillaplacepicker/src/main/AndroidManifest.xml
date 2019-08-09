@@ -10,11 +10,11 @@
         <activity
             android:name="com.vanillaplacepicker.presentation.autocomplete.VanillaAutocompleteActivity"
             android:windowSoftInputMode="stateVisible"
-            android:theme="@style/AppTheme" />
+            android:theme="@style/Transparent" />
 
         <activity
-                android:name="com.vanillaplacepicker.presentation.map.VanillaMapActivity"
-                android:theme="@style/AppTheme"/>
+            android:name="com.vanillaplacepicker.presentation.map.VanillaMapActivity"
+            android:theme="@style/AppTheme" />
 
         <service
             android:name="com.vanillaplacepicker.service.FetchAddressIntentService"
