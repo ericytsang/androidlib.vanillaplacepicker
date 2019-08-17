@@ -17,10 +17,6 @@ class VanillaAutocompleteActivity:AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // initialize Places API
-        val vanillaConfig = intent.getParcelableExtra<VanillaConfig>(KeyUtils.EXTRA_CONFIG)
-        Places.initialize(this, vanillaConfig.apiKey)
-
         // todo: delete unused resources & dependencies
 
         // start the autocomplete activity
