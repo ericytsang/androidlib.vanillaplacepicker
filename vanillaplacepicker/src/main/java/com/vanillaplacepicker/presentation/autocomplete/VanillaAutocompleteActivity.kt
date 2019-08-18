@@ -4,12 +4,10 @@ import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.google.android.libraries.places.api.Places
 import com.google.android.libraries.places.api.model.Place
 import com.google.android.libraries.places.widget.Autocomplete
 import com.google.android.libraries.places.widget.model.AutocompleteActivityMode
 import com.vanillaplacepicker.data.VanillaAddress
-import com.vanillaplacepicker.presentation.builder.VanillaConfig
 import com.vanillaplacepicker.utils.KeyUtils
 
 class VanillaAutocompleteActivity:AppCompatActivity() {
